@@ -1,0 +1,6 @@
+./db
+./node_modules
+./node_modules/*
+.env
+.eslintignore
+.eslintrc.json
