@@ -23,7 +23,7 @@ app.all('*', (req, res) => {
 });
 
 // error middleware
-app.use(require('./error-middleware'));
+// app.use(require('./error-middleware'));
 
 export const start = () => {
   app.listen(PORT, () => {

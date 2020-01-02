@@ -1,1 +1,3 @@
-require('./src/lib/server').start()
+import { start } from './src/lib/server';
+
+start()
