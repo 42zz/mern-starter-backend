@@ -3,7 +3,7 @@
 import { Router } from 'express';
 import bodyParser from 'body-parser';
 
-import basicAuth from '../lib/basic-auth-middleware.js';
+// import basicAuth from '../lib/basic-auth-middleware.js';
 import User from '../model/user'
 
 const authRouter = module.exports = new Router();
