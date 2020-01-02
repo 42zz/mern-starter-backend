@@ -1,6 +1,6 @@
-./db
-./node_modules
-./node_modules/*
+db/
+node_modules
+node_modules/*
 .env
 .eslintignore
 .eslintrc.json
